@@ -19,18 +19,34 @@ zcat /usr/share/doc/zabbix-server-pgsql*/create.sql.gz | sudo -u zabbix psql zab
 #zabbix DBPassword: 12345678
 #zabbix DBPort: 5432
 ```
-![dashboard]  
+  
+В левом верхнем углу в панеле поиска указан логин выполнившего
 
- 
+![dashboard]  
+Виджет для `CPU` имеет следующий вид  
+![cpu]
+![cpu_1]
+
+Виджет для `Memory`  
+![memory]
+![memory_1]
+
+Виджет для `disk`
+![disk]
+![disk_1]
+
+Виджет для `network`
+![network]
+![network_1]
+
+
+
 [dashboard]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_dashbord.png
 [cpu]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_cpu_widget.png
 [cpu_1]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_cpu_item.png
-
 [disk]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_disk_widget.png
 [disk_1]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_disk_item.png
-
 [memory]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_memory_widget.png
 [memory_1]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_memory_item.png
-
 [network]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_eth0_widget.png
 [network_1]: https://github.com/dbudakov/18.Monitoring/blob/master/images/zabbix_eht0_item.png
