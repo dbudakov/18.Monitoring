@@ -25,18 +25,22 @@ zcat /usr/share/doc/zabbix-server-pgsql*/create.sql.gz | sudo -u zabbix psql zab
 ![dashboard]  
 Виджет для `CPU` имеет следующий вид  
 ![cpu]
+Соответствующие `item` для  `cpu`
 ![cpu_1]
 
 Виджет для `Memory`  
 ![memory]
+Соответствующие `item` для `memory`
 ![memory_1]
 
 Виджет для `disk`
 ![disk]
+Соответствующие `item` для `disk`
 ![disk_1]
 
 Виджет для `network`
 ![network]
+Соответствующие `item` для `network`
 ![network_1]
 
 
